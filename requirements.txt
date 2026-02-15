@@ -1,8 +1,9 @@
 # Install CUDA PyTorch first (example):
 # pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128
 
-transformers @ git+https://github.com/pengzhiliang/transformers.git@4b4f4bdc64baca807e8364692313a6183a6116f6
-accelerate @ git+https://github.com/huggingface/accelerate
+transformers==4.57.3
+accelerate==1.12.0
+qwen-tts==0.1.1
 diffusers==0.36.0
 pymupdf==1.26.7
 soundfile==0.13.1
